@@ -1,0 +1,17 @@
+[profile.default]
+src = "src"
+out = "out"
+test = "test"
+libs = ["lib", "node_modules"]
+# Configuração EXATA usada no contrato publicado (não mude: o bytecode depende dela)
+solc_version = "0.8.24"
+evm_version = "paris"
+optimizer = true
+optimizer_runs = 1
+via_ir = true
+bytecode_hash = "none"
+cbor_metadata = false
+remappings = [
+  "forge-std/=lib/forge-std/src/",
+  "@openzeppelin/=node_modules/@openzeppelin/",
+]

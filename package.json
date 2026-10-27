@@ -1,0 +1,12 @@
+{
+  "name": "tmr-token",
+  "private": true,
+  "description": "TMR (Token Multirrede) — TRC-20 source code and on-chain bytecode check",
+  "license": "MIT",
+  "scripts": {
+    "verificar": "node script/verificar-bytecode.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.1.0"
+  }
+}
